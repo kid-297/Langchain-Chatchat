@@ -33,7 +33,7 @@ services:
           command:
             - python
           args:
-            - app.py
+            - startup.py
       triggers:
         - name: httpTrigger
           type: http
